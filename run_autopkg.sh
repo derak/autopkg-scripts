@@ -32,7 +32,7 @@ mkdir /Volumes/deploy
 mount -o rw,bg,hard,resvport,intr,noac,nfc,tcp munki_server.example.com:/deploy /Volumes/deploy/
 
 # update autopkg recipes
-autopkg repo-add ${repos[@]}
+sudo -u user_who_has_munki_access autopkg repo-add ${repos[@]}
 # run autopkg
 sudo -u user_who_has_munki_access autopkg run -v ${recipes[@]}
 
