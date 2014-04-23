@@ -5,7 +5,7 @@
 # To include more recipes/repos, add the new name to the recipes[]/repos[] array(s).
 #
 # Derak Berreyesa
-# derak.berreyesa@gmailcom
+# github.com/derak
 ##################################
 
 declare -a recipes=( \
